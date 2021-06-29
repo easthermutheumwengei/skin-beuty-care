@@ -15,6 +15,7 @@ body {
 
 .subContainer {
     width: 100%;
+    display: flex;
 }
 /* LOGO SECTION */
 .logoSection {
@@ -75,7 +76,15 @@ body {
     background-size: cover;
 }
 
-
+.heroText {
+    width: 25%;
+    position: absolute;
+    padding: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    top: 50%;
+    left: 40%;
+}
 .contentContainer {
     width: 80%;
 }
