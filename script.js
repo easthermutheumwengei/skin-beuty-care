@@ -16,7 +16,8 @@ beautyProductsDarkDry = ["pure aloe vera gel", "coconut oil", "triple cream", "e
 beautyProductsDarkNormal = ["cetaphil", "olay", "cerave", "purity cleanser", "baby brown clarins"];
 
 //beauty products for lightskin complexion
-beautyProductsLightOily = [""]
-
-//beauty product location
+beautyProductsLightOily = ["Covergirl Clean Fresh Pressed Powder", "Kate Somerville Oil-Free Moisturizer", "Caudalie Vinopure Natural Salicylic Acid Pore Minimizing Serum", "Dermalogica Oil Free Matte SPF30", "Mary Kay Oil Mattifier", ]
+beautyProductsLightDry = ["beautyProductsLightOily", "Aquaphor Healing Ointment", "CeraVe Moisturizing Cream", "Vanicream Moisturizing Skin Cream", "CeraVe Facial Moisturizing Lotion PM", "CeraVe SA Cream"]
+beautyProductsLightNormal = ["Stone Crop Gel Wash", " Lemon Cleanser", "Stone Crop Cleansing Oil"]
+    //beauty product location
 beautyProductsDarkOilyLocation = [""]
