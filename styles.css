@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .mainContainer {
@@ -87,4 +88,32 @@ body {
 }
 .contentContainer {
     width: 80%;
+    margin: 0px auto;
+}
+
+/* CONTENT CONTAINER */
+/* Skin Types */
+.skinTypes {
+    width: 100%;
+}
+
+.skinTypes h2 {
+    text-align: center;
+    margin-top: 5%;
+}
+.skinTypeFocus {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 5%;
+}
+
+.skinTypeFocusLeft {
+    width: 50%;
+    background-color: blue;
+}
+
+.skinTypeFocusRight {
+    width: 50%;
+    background-color: brown;
 }
