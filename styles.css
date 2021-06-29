@@ -148,6 +148,28 @@ body {
     
 }
 
+/* Skin type 2 */
+.skinTypeFocusRight2 {
+    width: 50%;
+    background-image: url("images/360_F_365851848_qVHMf7fU8MLkcimPeqMYAkTfOxxsVzhC.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* Skin type 3 */
+.skinTypeFocusRight3 {
+    width: 50%;
+    background-image: url("images/GorgeousSkin-ab926db1ae2240ac8ea9f2157a252e4f.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
 .skinTypeFocusRight  img {
     width: 100%;
     
