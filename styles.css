@@ -17,6 +17,17 @@ body {
     width: 100%;
 }
 
+/* HERO SECTION */
+.heroSection {
+    width: 100%;
+}
+
+.heroLeft {
+    width: 50%;
+}
+.heroRight {
+    width: 50%;
+}
 .contentContainer {
     width: 80%;
 }
