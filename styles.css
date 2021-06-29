@@ -196,6 +196,9 @@ form {
     background-color: rgb(236, 234, 234);
     padding: 40px;
 }
+form h2 {
+    margin-bottom: 20px;
+}
 
 form div {
     display: flex;
@@ -209,7 +212,7 @@ form div input {
 
 form button {
     padding: 10px 40px;
-    background-color: rgb(95, 73, 2);
+    background-color: rgb(2, 24, 95);
     color: white;
     border: none;
     border-radius: 4px;
