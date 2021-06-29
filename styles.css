@@ -16,10 +16,33 @@ body {
 .subContainer {
     width: 100%;
 }
-
+/* LOGO SECTION */
+.logoSection {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    padding-right: 10px;
+    border-radius: 4px;
+}
+.logo {
+    background-color: rgb(95, 73, 2);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
 /* HERO SECTION */
 .heroSection {
     width: 100%;
+    height: 85vh;
 }
 
 .heroLeft {
