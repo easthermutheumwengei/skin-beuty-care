@@ -43,14 +43,25 @@ body {
 .heroSection {
     width: 100%;
     height: 85vh;
+    display: flex;
 }
 
+/* Hero left */
 .heroLeft {
     width: 50%;
+    background-color: rgb(230, 188, 132);
 }
+
+/* Hero right */
 .heroRight {
     width: 50%;
+    background-image: url("images/b4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 .contentContainer {
     width: 80%;
 }
