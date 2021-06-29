@@ -50,6 +50,20 @@ body {
 .heroLeft {
     width: 50%;
     background-color: rgb(230, 188, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLeft {
+    width: 60%;
+    height: 60%;
+    background-image: url("images/bety6.jpg");  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    
 }
 
 /* Hero right */
