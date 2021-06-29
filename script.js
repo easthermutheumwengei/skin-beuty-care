@@ -20,9 +20,12 @@ beautyProductsLightOily = ["Covergirl Clean Fresh Pressed Powder", "Kate Somervi
 beautyProductsLightDry = ["beautyProductsLightOily", "Aquaphor Healing Ointment", "CeraVe Moisturizing Cream", "Vanicream Moisturizing Skin Cream", "CeraVe Facial Moisturizing Lotion PM", "CeraVe SA Cream"];
 beautyProductsLightNormal = ["Stone Crop Gel Wash", " Lemon Cleanser", "Stone Crop Cleansing Oil"];
 
-//beauty product location
-beautyProductsDarkOilyLocation = ["kitengela", "nairobi", "thika", "juja", "roysambu"];
+//beauty product location darkskin
+beautyProductsDarkOilyLocation = ["kitengela", "nairobi", "thika"];
 beautyProductsDarkDryLocation = ["embakasi", "pipeline", "tasia"]
 beautyProductsDarkNormalLocation = ["allsops", "ruiru", "kenyatta road", "suvey"]
 
-//beauty products for lightskin complexion
+//beauty products location for lightskin complexion
+beautyProductsLightOilyLocation = ["juja", "roysambu"]
+beautyProductsLightOilyLocation = ["westlands", "cbd"]
+beautyProductsLightOilyLocation = ["ngog", "caren"]
