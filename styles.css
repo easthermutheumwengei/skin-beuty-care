@@ -174,3 +174,14 @@ body {
     width: 100%;
     
 }
+
+/* SKIN TYPE GIF */
+.skinTypeGif {
+    margin-top: 5%;
+    background-image: url("images/what-is-my-skin-type1.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+
+}
