@@ -215,6 +215,10 @@ form div input {
     padding: 10px;
 }
 
+form div select {
+    padding: 10px;
+}
+
 form button {
     padding: 10px 40px;
     background-color: rgb(2, 24, 95);
