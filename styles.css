@@ -240,8 +240,12 @@ form button:hover {
     background-color: rgb(95, 73, 2);
     border-radius: 4px;
     color: white;
-    padding: 20px;
+    padding: 40px;
     display: none;
+}
+
+.results  ul li{
+    margin-left: 20px;
 }
 
 /* FOOTER */

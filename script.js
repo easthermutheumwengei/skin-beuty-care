@@ -29,7 +29,7 @@ FindBeautyProducts.prototype.lightSkinBeautyProducts = {
 
 FindBeautyProducts.prototype.locationForDarkSkinProduct = {
 
-    beautyProductsDarkOilyLocation : ["beautyclick,parklands", "reones beauty and cosmetics supply,eastleigh", "skincare.co.ke,kileleshwa"],
+    beautyProductsDarkOilyLocation : ["Beauty Click, Parklands, Nairobi", "Reones Beauty and Cosmetics Supply, Eastleigh, Nairobi", "Skincare, Kileleshwa, Nairobi"],
     beautyProductsDarkDryLocation : ["beauty blog kenya,cbd", "radiant beauty world,nairobi", "suzie beauty,cbd"],
     beautyProductsDarkNormalLocation : ["le-fremms beauty salon,cbd", "lintons beauty", "beautine enterprises", "brivys beauty products and accessories"]
 }
@@ -65,15 +65,30 @@ $(document).ready(function(){
 
             const results = `
                 <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>oily</em> skin type</h2>
+                <br>
                 <ul>
                     <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[0]}</li>
                     <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[1]}</li>
                     <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[2]}</li>
                     <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[3]}</li>
-                </ul>     
+                </ul>
+                <br>
+
+                <h2>We suggest the following locations</h2>
+
+                <br>
+
+                <ul>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.beautyProductsDarkOilyLocation[0]}</li>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.beautyProductsDarkOilyLocation[1]}</li>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.beautyProductsDarkOilyLocation[2]}</li>
+                    
+                </ul>
+
+
         `
        $(".results").html(results)
-       
+
         }
 
     })
