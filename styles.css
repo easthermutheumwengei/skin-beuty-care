@@ -99,7 +99,11 @@ body {
 
 .skinTypes h2 {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
+}
+
+.skinTypes p {
+    text-align: center;
 }
 .skinTypeFocus {
     width: 100%;
@@ -221,7 +225,7 @@ form button {
 /* FOOTER */
 .footer {
     background-color: rgb(187, 183, 183);
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
