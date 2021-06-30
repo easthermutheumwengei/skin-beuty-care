@@ -1,5 +1,5 @@
 //constractor for finding beauty products
-function findBeautyProducts(skinComplexion, skinType){
+function FindBeautyProducts(skinComplexion, skinType){
     this.skinComplexion = skinComplexion;
     this.skinType = skinType;
 
@@ -8,7 +8,7 @@ function findBeautyProducts(skinComplexion, skinType){
 // prototype object of beauty product for dark skin complexion
 
 
-findBeautyProducts.prototype.darkSkinBeautyProducts = {
+FindBeautyProducts.prototype.darkSkinBeautyProducts = {
     
     beautyProductsDarkOily:  ["soothing serum", "iunik", "panoxyl", "coconut water cream"],
     beautyProductsDarkDry : ["pure aloe vera gel", "coconut oil", "triple cream", "eucerin", "borage"],
@@ -18,7 +18,7 @@ findBeautyProducts.prototype.darkSkinBeautyProducts = {
 
 // prototype object of beauty products for lightskin complexion
 
-findBeautyProducts.prototype.lightSkinBeautyProducts = {
+FindBeautyProducts.prototype.lightSkinBeautyProducts = {
      
     beautyProductsLightOily : ["Covergirl Clean Fresh Pressed Powder", "Kate Somerville Oil-Free Moisturizer", "Caudalie Vinopure Natural Salicylic Acid Pore Minimizing Serum", "Dermalogica Oil Free Matte SPF30", "Mary Kay Oil Mattifier" ],
     beautyProductsLightDry : ["beautyProductsLightOily", "Aquaphor Healing Ointment", "CeraVe Moisturizing Cream", "Vanicream Moisturizing Skin Cream", "CeraVe Facial Moisturizing Lotion PM", "CeraVe SA Cream"],
@@ -27,7 +27,7 @@ findBeautyProducts.prototype.lightSkinBeautyProducts = {
 }
 // prototype object of location for darkskin
 
-findBeautyProducts.prototype.locationForDarkSkinProduct = {
+FindBeautyProducts.prototype.locationForDarkSkinProduct = {
 
     beautyProductsDarkOilyLocation : ["beautyclick,parklands", "reones beauty and cosmetics supply,eastleigh", "skincare.co.ke,kileleshwa"],
     beautyProductsDarkDryLocation : ["beauty blog kenya,cbd", "radiant beauty world,nairobi", "suzie beauty,cbd"],
@@ -36,13 +36,26 @@ findBeautyProducts.prototype.locationForDarkSkinProduct = {
 
 //  prototype object of location for lightskin
 
-findBeautyProducts.prototype.locationForLightSkinProduct = {
+FindBeautyProducts.prototype.locationForLightSkinProduct = {
 
     beautyProductsLightOilyLocation : ["skincare co.ke ,cbd", "super cosmetics-adams arcade"],
     beautyProductsLightOilyLocation : ["peepy beauty products,nairobi city", "reones beauty and cosmetics supply,starehe"],
     beautyProductsLightOilyLocation : ["true cosmetics,mombasa", "markay products ,nairobi"]
 
 }
+
+
+$(document).ready(function(){
+
+    $("beautyProducts").click(function(event) {
+
+        event.preventDefault();
+
+        const skinComplexion = $("#skin_complexion").val();
+        const skinType = $("#skin_type").val();
+        const email = $("#email").val();
+    })
+})
 
 
 
