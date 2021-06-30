@@ -47,13 +47,30 @@ FindBeautyProducts.prototype.locationForLightSkinProduct = {
 
 $(document).ready(function(){
 
-    $("beautyProducts").click(function(event) {
+    $("#beautyProducts").click(function(event) {
 
         event.preventDefault();
 
         const skinComplexion = $("#skin_complexion").val();
         const skinType = $("#skin_type").val();
         const email = $("#email").val();
+
+        const findBeautyProducts = new FindBeautyProducts();
+
+        $(".results").show();
+
+        if (skinComplexion == "dark" && skinType == "oily"){
+
+            const results = `
+        
+            <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>oily</em> skin type</h2>
+        
+        `
+        
+
+       $(".results").html(results)
+        }
+
     })
 })
 

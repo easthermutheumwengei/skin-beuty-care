@@ -236,10 +236,12 @@ form button:hover {
     flex-direction: column;
     justify-content: right;
     width: 80%;
-    margin: 10% auto;
+    margin: 5% auto;
     background-color: rgb(95, 73, 2);
     border-radius: 4px;
     color: white;
+    padding: 20px;
+    display: none;
 }
 
 /* FOOTER */
