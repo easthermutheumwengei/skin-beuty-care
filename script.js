@@ -28,15 +28,22 @@ var lightSkinBeautyProducts = {
 // object of location for darkskin
 
 var locationForDarkSkinProduct = {
-    
+
     beautyProductsDarkOilyLocation : ["kitengela", "nairobi", "thika"],
     beautyProductsDarkDryLocation : ["embakasi", "pipeline", "tasia"],
     beautyProductsDarkNormalLocation : ["allsops", "ruiru", "kenyatta road", "suvey"]
 }
 
+// object of location for lightskin
+
+var locationForLightSkinProduct = {
+
+    beautyProductsLightOilyLocation : ["juja", "roysambu"],
+    beautyProductsLightOilyLocation : ["westlands", "cbd"],
+    beautyProductsLightOilyLocation : ["ngog", "caren"]
+
+}
 
 
-//beauty products location for lightskin complexion
-beautyProductsLightOilyLocation = ["juja", "roysambu"]
-beautyProductsLightOilyLocation = ["westlands", "cbd"]
-beautyProductsLightOilyLocation = ["ngog", "caren"]
+
+
