@@ -25,15 +25,16 @@ var lightSkinBeautyProducts = {
     beautyProductsLightNormal : ["Stone Crop Gel Wash", " Lemon Cleanser", "Stone Crop Cleansing Oil"]
 
 }
-//beauty products for lightskin complexion
-beautyProductsLightOily = ["Covergirl Clean Fresh Pressed Powder", "Kate Somerville Oil-Free Moisturizer", "Caudalie Vinopure Natural Salicylic Acid Pore Minimizing Serum", "Dermalogica Oil Free Matte SPF30", "Mary Kay Oil Mattifier", ];
-beautyProductsLightDry = ["beautyProductsLightOily", "Aquaphor Healing Ointment", "CeraVe Moisturizing Cream", "Vanicream Moisturizing Skin Cream", "CeraVe Facial Moisturizing Lotion PM", "CeraVe SA Cream"];
-beautyProductsLightNormal = ["Stone Crop Gel Wash", " Lemon Cleanser", "Stone Crop Cleansing Oil"];
+// object of location for darkskin
 
-//beauty product location darkskin
-beautyProductsDarkOilyLocation = ["kitengela", "nairobi", "thika"];
-beautyProductsDarkDryLocation = ["embakasi", "pipeline", "tasia"]
-beautyProductsDarkNormalLocation = ["allsops", "ruiru", "kenyatta road", "suvey"]
+var locationForDarkSkinProduct = {
+    
+    beautyProductsDarkOilyLocation : ["kitengela", "nairobi", "thika"],
+    beautyProductsDarkDryLocation : ["embakasi", "pipeline", "tasia"],
+    beautyProductsDarkNormalLocation : ["allsops", "ruiru", "kenyatta road", "suvey"]
+}
+
+
 
 //beauty products location for lightskin complexion
 beautyProductsLightOilyLocation = ["juja", "roysambu"]
