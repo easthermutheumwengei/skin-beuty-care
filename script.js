@@ -29,18 +29,18 @@ findBeautyProducts.prototype.lightSkinBeautyProducts = {
 
 findBeautyProducts.prototype.locationForDarkSkinProduct = {
 
-    beautyProductsDarkOilyLocation : ["kitengela", "nairobi", "thika"],
-    beautyProductsDarkDryLocation : ["embakasi", "pipeline", "tasia"],
-    beautyProductsDarkNormalLocation : ["allsops", "ruiru", "kenyatta road", "suvey"]
+    beautyProductsDarkOilyLocation : ["beautyclick,parklands", "reones beauty and cosmetics supply,eastleigh", "skincare.co.ke,kileleshwa"],
+    beautyProductsDarkDryLocation : ["beauty blog kenya,cbd", "radiant beauty world,nairobi", "suzie beauty,cbd"],
+    beautyProductsDarkNormalLocation : ["le-fremms beauty salon,cbd", "lintons beauty", "beautine enterprises", "brivys beauty products and accessories"]
 }
 
 //  prototype object of location for lightskin
 
 findBeautyProducts.prototype.locationForLightSkinProduct = {
 
-    beautyProductsLightOilyLocation : ["juja", "roysambu"],
-    beautyProductsLightOilyLocation : ["westlands", "cbd"],
-    beautyProductsLightOilyLocation : ["ngog", "caren"]
+    beautyProductsLightOilyLocation : ["skincare co.ke ,cbd", "super cosmetics-adams arcade"],
+    beautyProductsLightOilyLocation : ["peepy beauty products,nairobi city", "reones beauty and cosmetics supply,starehe"],
+    beautyProductsLightOilyLocation : ["true cosmetics,mombasa", "markay products ,nairobi"]
 
 }
 
