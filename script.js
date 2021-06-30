@@ -59,16 +59,21 @@ $(document).ready(function(){
 
         $(".results").show();
 
+        // DARK OILY SKIN
+
         if (skinComplexion == "dark" && skinType == "oily"){
 
             const results = `
-        
-            <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>oily</em> skin type</h2>
-        
+                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>oily</em> skin type</h2>
+                <ul>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[0]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[1]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[2]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts. beautyProductsDarkOily[3]}</li>
+                </ul>     
         `
-        
-
        $(".results").html(results)
+       
         }
 
     })
