@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.comment-container .bg-image {
+    background-image: url(./b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.f1 {
+    width: 80%;
+    background-color: rgb(228, 224, 220);
+}
+
+.container {
+    background-color: rgb(228, 224, 220);
+    margin-top: 30px;
+    /* width: 300px; */
+    margin-left: 10px;
+}
+
+#type {
+    height: 50px;
+    width: 700px;
+    padding: 15px;
+}
+
+#submit {
+    padding: 7px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: blue;
+    border-style: none;
+}
+
+.f2 {
+    width: 80%;
+    background-color: rgb(228, 224, 220);
+}
+
+.container2 {
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+}
+
+#type {
+    height: 50px;
+    /* padding: 19px; */
+}
