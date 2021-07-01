@@ -249,13 +249,36 @@ $(document).ready(function(){
         }
 
 
-            
+        
 
-  
+    });
+
+    $("button.signupbtn").click(function(event){
+
+        event.preventDefault();
+
+        location.href = "index.html"
+    });
 
 
-    })
-})
+    $("button.loginbtn").click(function(event){
+
+        event.preventDefault();
+
+        $("#loginForm").show();
+        $("#signUpForm").hide();
+    });
+
+
+    $("button#signUp2").click(function(event){
+
+        event.preventDefault();
+
+        $("#loginForm").hide();
+        $("#signUpForm").show();
+    });
+
+});
 
 
 
