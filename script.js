@@ -10,9 +10,9 @@ function FindBeautyProducts(skinComplexion, skinType){
 
 FindBeautyProducts.prototype.darkSkinBeautyProducts = {
     
-    oilySkin:  ["soothing serum", "iunik", "panoxyl", "coconut water cream"],
-    drySkin : ["pure aloe vera gel", "coconut oil", "triple cream", "eucerin", "borage"],
-    normalSkin : ["cetaphil", "olay", "cerave", "purity cleanser", "baby brown clarins"]
+    oilySkin:  ["Soothing Serum", "Iunik", "Panoxyl", "Coconut water cream"],
+    drySkin : ["Pure aloe vera gel", "Coconut oil", "Triple cream", "Eucerin", "Borage"],
+    normalSkin : ["Cetaphil", "Olay", "Cerave", "Purity Cleanser", "Baby Brown Clarins"]
 
 }
 
@@ -30,17 +30,17 @@ FindBeautyProducts.prototype.lightSkinBeautyProducts = {
 FindBeautyProducts.prototype.locationForDarkSkinProduct = {
 
     oilySkin : ["Beauty Click, Parklands, Nairobi", "Reones Beauty and Cosmetics Supply, Eastleigh, Nairobi", "Skincare, Kileleshwa, Nairobi"],
-    drySkin : ["beauty blog kenya,cbd", "radiant beauty world,nairobi", "suzie beauty,cbd"],
-    normalSkin : ["le-fremms beauty salon,cbd", "lintons beauty", "beautine enterprises", "brivys beauty products and accessories"]
+    drySkin : ["Beauty Blog Kenya, CBD", "Radiant Beauty World, Nairobi", "Suzie Beauty, Nairobi CBD"],
+    normalSkin : ["Le-fremms Beauty Salon, CBD", "Lintons Beauty", "Beautine Enterprises", "Brivys Beauty Products and Accessories"]
 }
 
 //  prototype object of location for lightskin
 
 FindBeautyProducts.prototype.locationForLightSkinProduct = {
 
-    oilySkin : ["skincare co.ke ,cbd", "super cosmetics-adams arcade"],
-    drySkin : ["peepy beauty products,nairobi city", "reones beauty and cosmetics supply,starehe"],
-    normalSkin : ["true cosmetics,mombasa", "markay products ,nairobi"]
+    oilySkin : ["Skincare, Nairobi CBD", "Super Cosmetics, Adams Arcade, Nairobi"],
+    drySkin : ["Peepy Beauty Products, Nairobi City", "Reones Beauty and Cosmetics Supply, Starehe"],
+    normalSkin : ["True Cosmetics, Mombasa", "Markay Products, Nairobi"]
 
 }
 
@@ -85,9 +85,8 @@ $(document).ready(function(){
                     
                 </ul>
 
-
             `
-            $(".results").html(results)
+            $(".results").html(results);
 
         }
 
@@ -119,9 +118,8 @@ $(document).ready(function(){
                     <li>${findBeautyProducts.locationForDarkSkinProduct.drySkin[2]}</li>
                 </ul>
 
-
             `
-            $(".results").html(results)
+            $(".results").html(results);
 
         }
 
@@ -153,9 +151,8 @@ $(document).ready(function(){
                     <li>${findBeautyProducts.locationForDarkSkinProduct.normalSkin[3]}</li>
                 </ul>
 
-
             `
-            $(".results").html(results)
+            $(".results").html(results);
 
         }
 
@@ -186,9 +183,8 @@ $(document).ready(function(){
                     
                 </ul>
 
-
             `
-            $(".results").html(results)
+            $(".results").html(results);
 
         }
 
@@ -218,10 +214,8 @@ $(document).ready(function(){
                     <li>${findBeautyProducts.locationForLightSkinProduct.drySkin[0]}</li>
                     <li>${findBeautyProducts.locationForLightSkinProduct.drySkin[1]}</li>
                 </ul>
-
-
             `
-            $(".results").html(results)
+            $(".results").html(results);
 
         }
 
@@ -247,12 +241,10 @@ $(document).ready(function(){
                 <ul>
                     <li>${findBeautyProducts.locationForLightSkinProduct.normalSkin[0]}</li>
                     <li>${findBeautyProducts.locationForLightSkinProduct.normalSkin[1]}</li>
-                   
                 </ul>
 
-
             `
-            $(".results").html(results)
+            $(".results").html(results);
 
         }
 
