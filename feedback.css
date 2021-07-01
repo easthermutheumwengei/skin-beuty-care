@@ -37,11 +37,14 @@
     font-weight: bold;
 }
 
+form {
+    margin-top: 5%;
+}
 .forms {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    
 }
 .f1, .f2 {
     width: 80%;
