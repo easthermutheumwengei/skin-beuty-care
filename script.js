@@ -97,7 +97,7 @@ $(document).ready(function(){
          if (skinComplexion == "dark" && skinType == "dry"){
 
             const results = `
-                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>oily</em> skin type</h2>
+                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>dry</em> skin type</h2>
                 <br>
                 <ul>
                     <li>${findBeautyProducts.darkSkinBeautyProducts.drySkin[0]}</li>
@@ -130,14 +130,14 @@ $(document).ready(function(){
         if (skinComplexion == "dark" && skinType == "normal"){
 
             const results = `
-                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>oily</em> skin type</h2>
+                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>normal</em> skin type</h2>
                 <br>
                 <ul>
-                    <li>${findBeautyProducts.darkSkinBeautyProducts.drySkin[0]}</li>
-                    <li>${findBeautyProducts.darkSkinBeautyProducts.drySkin[1]}</li>
-                    <li>${findBeautyProducts.darkSkinBeautyProducts.drySkin[2]}</li>
-                    <li>${findBeautyProducts.darkSkinBeautyProducts.drySkin[3]}</li>
-                    <li>${findBeautyProducts.darkSkinBeautyProducts.drySkin[4]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts.normalSkin[0]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts.normalSkin[1]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts.normalSkin[2]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts.normalSkin[3]}</li>
+                    <li>${findBeautyProducts.darkSkinBeautyProducts.normalSkin[4]}</li>
                     
                 </ul>
                 <br>
@@ -147,9 +147,10 @@ $(document).ready(function(){
                 <br>
 
                 <ul>
-                    <li>${findBeautyProducts.locationForDarkSkinProduct.drySkin[0]}</li>
-                    <li>${findBeautyProducts.locationForDarkSkinProduct.drySkin[1]}</li>
-                    <li>${findBeautyProducts.locationForDarkSkinProduct.drySkin[2]}</li>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.normalSkin[0]}</li>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.normalSkin[1]}</li>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.normalSkin[2]}</li>
+                    <li>${findBeautyProducts.locationForDarkSkinProduct.normalSkin[3]}</li>
                 </ul>
 
 
@@ -157,6 +158,44 @@ $(document).ready(function(){
             $(".results").html(results)
 
         }
+
+
+           // LIGHT OILY SKIN
+
+           if (skinComplexion == "light" && skinType == "oily"){
+
+            const results = `
+                <h2>We suggest the following beauty products for <em>light</em> skin complexion and <em>oily</em> skin type</h2>
+                <br>
+                <ul>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.oilySkin[0]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.oilySkin[1]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.oilySkin[2]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.oilySkin[3]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.oilySkin[4]}</li>
+                </ul>
+                <br>
+
+                <h2>We suggest the following locations</h2>
+
+                <br>
+
+                <ul>
+                    <li>${findBeautyProducts.locationForLightSkinProduct.oilySkin[0]}</li>
+                    <li>${findBeautyProducts.locationForLightSkinProduct.oilySkin[1]}</li>
+                    
+                </ul>
+
+
+            `
+            $(".results").html(results)
+
+        }
+
+            
+
+  
+
 
     })
 })
