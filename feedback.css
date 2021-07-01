@@ -74,3 +74,19 @@
     height: 50px;
     /* padding: 19px; */
 }
+
+/* FOOTER */
+.footer {
+    background-color: rgb(187, 183, 183);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.logoFooter {
+    width: 30px;
+    margin-bottom: 10px;
+}
