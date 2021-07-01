@@ -197,7 +197,7 @@ $(document).ready(function(){
           if (skinComplexion == "light" && skinType == "dry"){
 
             const results = `
-                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>dry</em> skin type</h2>
+                <h2>We suggest the following beauty products for <em>light</em> skin complexion and <em>dry</em> skin type</h2>
                 <br>
                 <ul>
                     <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[0]}</li>
@@ -224,6 +224,38 @@ $(document).ready(function(){
             $(".results").html(results)
 
         }
+
+          // LIGHT NORMAL SKIN
+
+          if (skinComplexion == "light" && skinType == "normal"){
+
+            const results = `
+                <h2>We suggest the following beauty products for <em>light</em> skin complexion and <em>normal</em> skin type</h2>
+                <br>
+                <ul>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.normalSkin[0]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.normalSkin[1]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.normalSkin[2]}</li>
+                    
+                </ul>
+                <br>
+
+                <h2>We suggest the following locations</h2>
+
+                <br>
+
+                <ul>
+                    <li>${findBeautyProducts.locationForLightSkinProduct.normalSkin[0]}</li>
+                    <li>${findBeautyProducts.locationForLightSkinProduct.normalSkin[1]}</li>
+                   
+                </ul>
+
+
+            `
+            $(".results").html(results)
+
+        }
+
 
             
 
