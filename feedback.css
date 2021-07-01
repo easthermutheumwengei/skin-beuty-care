@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg-image {
+    background-image: url("images/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+   
+}
+
+/* LOGO SECTION */
+.logoSection {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    padding-right: 10px;
+    border-radius: 4px;
+}
+.logo {
+    background-color: rgb(95, 73, 2);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.f1, .f2 {
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+}
+
+#type {
+    height: 50px;
+    width: 700px;
+    padding: 15px;
+}
+#submit {
+    padding: 7px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.container2 {
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+}
+#type {
+    height: 50px;
+    /* padding: 19px; */
+}
