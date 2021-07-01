@@ -25,6 +25,16 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.logoSection a {
+    color: black;
+    margin-left: 20px;
+}
+
+.logoSection a:hover {
+    color: blue;
+}
+
 .logoWrapper {
     display: flex;
     align-items: center;
