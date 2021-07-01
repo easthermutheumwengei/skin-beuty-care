@@ -278,6 +278,40 @@ $(document).ready(function(){
         $("#signUpForm").show();
     });
 
+    $("button.submitFeedback").click(function(event){
+
+        event.preventDefault();
+
+        $(".f1").show();
+        const feedbackText = $("textarea[name = 'textFeedback']").val();
+        const results = `
+        
+            <h3>UserNameOne</h3>
+            <p>${feedbackText}</p>
+            <br>
+            <p id = "paraComment"></p>
+            <br>
+            <h4>Comment</h4>
+            <textarea name="text" id="type" cols="30" rows="10" placeholder="Type here..."></textarea>
+            <br>
+            <button id="submit">Submit</button>
+
+            <br>
+        `
+        
+        $(".container").append(results)
+
+    });
+
+    $("button#submit").click(function(event){
+
+        event.preventDefault();
+
+        results1 = $("textarea[name = 'text']").val();
+
+        $("p#paraComment").html(results1);
+
+    })
 });
 
 
