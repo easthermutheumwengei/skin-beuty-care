@@ -53,7 +53,7 @@ $(document).ready(function(){
 
         const skinComplexion = $("#skin_complexion").val();
         const skinType = $("#skin_type").val();
-        const email = $("#email").val();
+        
 
         const findBeautyProducts = new FindBeautyProducts();
 
