@@ -192,6 +192,39 @@ $(document).ready(function(){
 
         }
 
+          // LIGHT DRY SKIN
+
+          if (skinComplexion == "light" && skinType == "dry"){
+
+            const results = `
+                <h2>We suggest the following beauty products for <em>dark</em> skin complexion and <em>dry</em> skin type</h2>
+                <br>
+                <ul>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[0]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[1]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[2]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[3]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[4]}</li>
+                    <li>${findBeautyProducts.lightSkinBeautyProducts.drySkin[5]}</li>
+                    
+                </ul>
+                <br>
+
+                <h2>We suggest the following locations</h2>
+
+                <br>
+
+                <ul>
+                    <li>${findBeautyProducts.locationForLightSkinProduct.drySkin[0]}</li>
+                    <li>${findBeautyProducts.locationForLightSkinProduct.drySkin[1]}</li>
+                </ul>
+
+
+            `
+            $(".results").html(results)
+
+        }
+
             
 
   
