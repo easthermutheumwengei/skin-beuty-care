@@ -297,6 +297,7 @@ $(document).ready(function(){
             <button id="submit">Submit</button>
 
             <br>
+            <hr>
         `
         
         $(".container").append(results)

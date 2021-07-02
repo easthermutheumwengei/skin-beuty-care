@@ -101,9 +101,14 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 0px;
 }
 
 .logoFooter {
     width: 30px;
     margin-bottom: 10px;
+}
+
+hr {
+    margin-top: 20px;
 }
