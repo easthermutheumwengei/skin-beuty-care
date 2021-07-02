@@ -286,7 +286,7 @@ $(document).ready(function(){
         const feedbackText = $("textarea[name = 'textFeedback']").val();
         const results = `
         
-            <h3>UserNameOne</h3>
+            <h3>Jemimah Wambugu</h3>
             <p>${feedbackText}</p>
             <br>
             <p id = "paraComment"></p>
@@ -297,6 +297,7 @@ $(document).ready(function(){
             <button id="submit">Submit</button>
 
             <br>
+            <hr>
         `
         
         $(".container").append(results)
